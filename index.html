@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiel's Meme Generator</title>
+    <link rel="stylesheet" href="app.css">
+
+</head>
+<body>
+    <h1>Kiel's Dank Meme Generator</h1>
+    <form action="" id="newPic">
+        <div id="meme_text1"></div>
+        <div id="meme_text2"></div>
+        <div id="meme_picture"><img src="" height="500"
+            width="600" id="imgHere"></div>
+        <input type="file" accept="image/*" name="inpFile" id="inpFile">
+      </form>
+      <form action="" id="upperText">
+          <label for="textOne">Upper Meme Text</label>
+          <input type="text" name="textOne" id="textOne" Maxlength="70" placeholder="Add upper text">
+          <input type="submit" value="Add to Pic">
+      </form>
+      <form action="" id="lowerText">
+        <label for="textTwo">Lower Meme Text</label>
+        <input type="text" name="textTwo" id="textTwo" MaxLength="70" placeholder="Add lower text">
+        <input type="submit" value="Add to Pic">
+    </form>
+    <script src="memeBetter.js"></script>
+</body>
+</html>

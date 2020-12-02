@@ -1,0 +1,41 @@
+body {
+	background-color: #2f4454;
+	color: lightgoldenrodyellow;
+}
+
+h1 {
+	background-color: #4d6d9a;
+	color: #ececec;
+	font-family: cursive;
+	text-align: center;
+}
+
+label {
+	color: lightgoldenrodyellow;
+	font-family: cursive;
+	border: 10px;
+	font-size: large;
+}
+
+#meme_text1 {
+	background-color: transparent;
+	font-size: 40px;
+	font-family: "Impact";
+	color: white;
+	text-shadow: black 0px 0px 10px;
+	width: 600px;
+	position: absolute;
+	left: 15px;
+	top: 100px;
+}
+#meme_text2 {
+	background-color: transparent;
+	font-size: 40px;
+	font-family: "Impact";
+	color: white;
+	text-shadow: black 0px 0px 10px;
+	width: 600px;
+	position: absolute;
+	left: 15px;
+	top: 520px;
+}
