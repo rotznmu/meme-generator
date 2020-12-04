@@ -59,11 +59,6 @@ lowerTextForm.addEventListener('submit', function(e) {
 	lowerTextInput.value = '';
 });
 
-function update_image() {
-	let img = document.querySelector('img');
-	img.src;
-}
-
 function createMeme(className, inputLocation) {
 	let pElement = document.createElement('p');
 	pElement.className = className;
