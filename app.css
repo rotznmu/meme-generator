@@ -17,18 +17,11 @@ label {
 	font-size: large;
 }
 
-#meme_text1 {
-	background-color: transparent;
-	font-size: 40px;
-	font-family: "Impact";
-	color: white;
-	text-shadow: black 0px 0px 10px;
-	width: 600px;
-	position: absolute;
-	left: 15px;
-	top: 100px;
+div {
+	margin-bottom: 0px;
+	position: relative;
 }
-#meme_text2 {
+.meme_text1 {
 	background-color: transparent;
 	font-size: 40px;
 	font-family: "Impact";
@@ -36,6 +29,17 @@ label {
 	text-shadow: black 0px 0px 10px;
 	width: 600px;
 	position: absolute;
-	left: 15px;
-	top: 520px;
+	top: -40px;
+	text-align: center;
+}
+.meme_text2 {
+	background-color: transparent;
+	font-size: 40px;
+	font-family: "Impact";
+	color: white;
+	text-shadow: black 0px 0px 10px;
+	width: 600px;
+	position: absolute;
+	top: 410px;
+	text-align: center;
 }
